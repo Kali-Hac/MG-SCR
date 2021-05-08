@@ -7,7 +7,7 @@ This is the implementation of MG-SCR paradigm presented by "Multi-Level Graph En
 
 The codes are used to reproduce experimental results in the [paper](.).
 
-![image](https://github.com/Kali-Hac/MG-SCR/blob/master/img/overview.png)
+![image](https://github.com/Kali-Hac/MG-SCR/blob/main/img/overview.png)
 
 Abstract: Skeleton-based person re-identification (Re-ID) is an emerging open topic providing great value for safety-critical applications. 
 Existing methods typically extract hand-crafted features or model skeleton dynamics from the trajectory of body joints, while they rarely explore valuable relation information contained in body structure or motion. To fully explore body relations, we construct graphs to model human skeletons from different levels, and for the first time propose a Multi-level Graph encoding approach with Structural-Collaborative Relation learning (MG-SCR) to encode discriminative graph features for person Re-ID.
