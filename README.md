@@ -90,4 +90,4 @@ Please see ```train-CASIA.py``` for more details. <br/>
 
 # Acknowledgements
 
-Thanks to Veličković et al. for opening source of their excellent works [GAT](https://github.com/PetarV-/GAT). 
+Thanks to Veličković *et al.* for opening source of their excellent works [GAT](https://github.com/PetarV-/GAT). 
