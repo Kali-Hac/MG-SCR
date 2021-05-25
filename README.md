@@ -88,6 +88,6 @@ Please see ```train-CASIA.py``` for more details. <br/>
 ## Results
 ![results](img/MG-SCR-results.png)
 
-## License
+# Acknowledgements
 
-MG-SCR is released under the MIT License.
+Thanks to Veličković et al. for opening source of their excellent works [GAT](https://github.com/PetarV-/GAT). 
