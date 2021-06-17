@@ -345,8 +345,8 @@ with tf.Graph().as_default():
 			Pred_t = T_m + 1
 			T_m = T_m.astype(dtype=np.int32)
 			Pred_t = Pred_t.astype(dtype=np.int32)
-			T_m = np.tile(T_m, [batch_size, 1]).reshape(-1, 1)
-			Pred_t = np.tile(Pred_t, [batch_size, 1]).reshape(-1, 1)
+			T_m = np.tile(T_m, [batch_size]).reshape(-1, 1)
+			Pred_t = np.tile(Pred_t, [batch_size]).reshape(-1, 1)
 			seq_ind = np.arange(batch_size).reshape(-1, 1)
 			seq_ind = np.tile(seq_ind, [1, k]).reshape(-1, 1)
 			T_m = np.hstack([seq_ind, T_m])
@@ -360,7 +360,7 @@ with tf.Graph().as_default():
 			if i == 0:
 				T_m_test = np.arange(k).reshape(-1, 1)
 				T_m_test = T_m_test.astype(dtype=np.int32)
-				T_m_test = np.tile(T_m_test, [batch_size, 1]).reshape(-1, 1)
+				T_m_test = np.tile(T_m_test, [batch_size]).reshape(-1, 1)
 				T_m_test = np.hstack([seq_ind, T_m_test])
 				test_seq_ftr = tf.gather_nd(seq_ftr, T_m_test)
 				test_seq_ftr = tf.reshape(test_seq_ftr, [batch_size, k, -1])
