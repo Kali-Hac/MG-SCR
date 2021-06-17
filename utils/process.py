@@ -11,7 +11,7 @@ from sklearn.metrics import roc_curve, auc
  Generate training data for each dataset.
 """
 
-def gen_train_data(dataset, split, time_step, nb_nodes, nhood, global_att, batch_size, view):
+def gen_train_data(dataset, split, time_step, nb_nodes, nhood, global_att, batch_size, view=''):
 	def get_data(dimension, fr):
 		input_data = np.load(
 			'Datasets/' + frames_ps + dataset + '_train_npy_data/source_' + dimension + '_' + dataset + '_' + str(
