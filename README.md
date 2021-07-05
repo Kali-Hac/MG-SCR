@@ -88,6 +88,17 @@ Please see ```train-CASIA.py``` for more details. <br/>
 ## Results
 ![results](img/MG-SCR-results.png)
 
+## Citation
+If you find this code useful for your research, please cite our paper
+```bash
+@article{rao2021multi,
+  title={Multi-Level Graph Encoding with Structural-Collaborative Relation Learning for Skeleton-Based Person Re-Identification},
+  author={Rao, Haocong and Xu, Shihao and Hu, Xiping and Cheng, Jun and Hu, Bin},
+  journal={arXiv preprint arXiv:2106.03069},
+  year={2021}
+}
+```
+
 # Acknowledgements
 
 Thanks to Veličković *et al.* for opening source of their excellent works [GAT](https://github.com/PetarV-/GAT). 
