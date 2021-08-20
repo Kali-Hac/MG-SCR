@@ -1,10 +1,10 @@
 ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)
 ![PyTorch >=1.6](https://img.shields.io/badge/Tensorflow->=1.10-yellow.svg)
 # Multi-Level Graph Encoding with Structural-Collaborative Relation Learning for Skeleton-Based Person Re-Identification
-By Haocong Rao, Shihao Xu, Xiping Hu, Jun Cheng, Bin Hu. In [IJCAI 2021](https://arxiv.org/abs/2106.03069).
+By Haocong Rao, Shihao Xu, Xiping Hu, Jun Cheng, Bin Hu. In [IJCAI 2021](https://www.ijcai.org/proceedings/2021/0135.pdf).
 
 ## Introduction
-This is the official implementation of MG-SCR model presented by "Multi-Level Graph Encoding with Structural-Collaborative Relation Learning for Skeleton-Based Person Re-Identification". The codes are used to reproduce experimental results in the [paper](https://arxiv.org/abs/2106.03069).
+This is the official implementation of MG-SCR model presented by "Multi-Level Graph Encoding with Structural-Collaborative Relation Learning for Skeleton-Based Person Re-Identification". The codes are used to reproduce experimental results in the [paper](https://www.ijcai.org/proceedings/2021/0135.pdf).
 
 ![image](https://github.com/Kali-Hac/MG-SCR/blob/main/img/overview.png)
 
