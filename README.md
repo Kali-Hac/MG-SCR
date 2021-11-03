@@ -4,7 +4,7 @@
 By Haocong Rao, Shihao Xu, Xiping Hu, Jun Cheng, Bin Hu. In [IJCAI 2021](https://www.ijcai.org/proceedings/2021/0135).
 
 ## Introduction
-This is the official implementation of MG-SCR model presented by "Multi-Level Graph Encoding with Structural-Collaborative Relation Learning for Skeleton-Based Person Re-Identification". The codes are used to reproduce experimental results in the [paper](https://www.ijcai.org/proceedings/2021/0135.pdf).
+This is the official implementation of MG-SCR model presented by "Multi-Level Graph Encoding with Structural-Collaborative Relation Learning for Skeleton-Based Person Re-Identification". The codes are used to reproduce experimental results in the [**paper**](https://www.ijcai.org/proceedings/2021/0135.pdf).
 
 ![image](https://github.com/Kali-Hac/MG-SCR/blob/main/img/overview.png)
 
