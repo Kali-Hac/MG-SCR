@@ -86,7 +86,27 @@ Please see ```train-CASIA.py``` for more details. <br/>
 
 
 ## Results
-![results](img/MG-SCR-results.png)
+| **Models**                       | **Rank-1** |       |       |      |      | **nAUC** |       |       |      |      |
+|------------------------------|:------:|:-----:|:-----:|------|:----:|:----:|-------|-------|------|------|
+|                              | **BIWI**   | **IAS-A** | **IAS-B** | **KS20** | **KGBD** | **BIWI** | **IAS-A** | **IAS-B** | **KS20** | **KGBD** |
+| Gait Energy Image            | 21.4   | 25.6  | 15.9  |  —   |  —   | 73.2 | 72.1  | 66.0  |  —   |  —   |
+| 3D CNN + Average Pooling     | 27.8   | 33.4  | 39.1  |  —   |  —   | 84.0 | 81.4  | 82.8  |  —   |  —   |
+| Gait Energy Volume           | 25.7   | 20.4  | 13.7  |  —   |  —   | 83.2 | 66.2  | 64.8  |  —   |  —   |
+| 3D LSTM                      | 27.0   | 31.0  | 33.8  |  —   |  —   | 83.3 | 77.6  | 78.0  |  —   |  —   |
+| PCM + Skeleton               | 42.9   | 27.3  | 81.8  |  —   |  —   |  —   |  —    |  —    |  —   |  —   |
+| Size-Shape Descriptors + SVM | 20.5   |  —    |  —    |  —   |  —   | 87.2 |  —    |  —    |  —   |  —   |
+| Size-Shape Descriptors + LDA | 22.1   |  —    |  —    |  —   |  —   | 88.5 |  —    |  —    |  —   |  —   |
+| DVCov + SKL                  | 21.4   | 46.6  | 45.9  |  —   |  —   |  —   |  —    |  —    |  —   |  —   |
+| ED + SKL                     | 30.0   | 52.3  | 63.3  |  —   |  —   |  —   |  —    |  —    |  —   |  —   |
+| CNN-LSTM with RTA            | 50.0   |  —    |  —    |  —   |  —   |  —   |  —    |  —    |  —   |  —   |
+| D-13 Descriptors + KNN       | 39.3   | 33.8  | 40.5  | 58.3 | 46.9 | 64.3 | 63.6  | 71.1  | 78.0 | 90.0 |
+| Single-layer LSTM            | 15.8   | 20.0  | 19.1  | 80.9 | 39.8 | 65.8 | 65.9  | 68.4  | 92.3 | 87.2 |
+| Multi-layer LSTM             | 36.1   | 34.4  | 30.9  | 81.6 | 46.2 | 75.6 | 72.1  | 71.9  | 94.2 | 89.8 |
+| D-16 Descriptors + Adaboost  | 41.8   | 27.4  | 39.2  | 59.8 | 69.9 | 74.1 | 65.5  | 78.2  | 78.8 | 90.6 |
+| PoseGait                     | 33.3   | 41.4  | 37.1  | 70.5 | 90.6 | 81.8 | 79.9  | 74.8  | 94.0 | 97.8 |
+| Attention Gait Encodings     | 59.1   | 56.1  | 58.2  | 86.9 | 87.7 | 86.5 | 81.7  | 85.3  | 94.7 | 96.3 |
+| **MG-SCR (Ours)**                | **61.6**   | **56.5**  | **65.9**  | **87.3** | **96.3** | **91.9** | **87.0**  | **93.1**  | **95.5** | **99.9** |
+<!-- ![results](img/MG-SCR-results.png) -->
 
 ## Model Size & Computational Complexity
 | Methods  | # Params | GFLOPs |
@@ -94,7 +114,6 @@ Please see ```train-CASIA.py``` for more details. <br/>
 | PoseGait |   26.80M |  364.8 |
 | [AGE](https://github.com/Kali-Hac/SGE-LA)      |    7.15M |   37.4 |
 | [CAGE](https://github.com/Kali-Hac/Locality-Awareness-SGE)     |    8.47M |    7.5 |
-| [SM-SGE](https://github.com/Kali-Hac/SM-SGE)   |    5.58M |   22.6 |
 | [MG-SCR (Ours)](https://github.com/Kali-Hac/MG-SCR)   |    1.04M |   19.8 |
 
 ## Citation
