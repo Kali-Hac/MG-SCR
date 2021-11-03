@@ -88,6 +88,15 @@ Please see ```train-CASIA.py``` for more details. <br/>
 ## Results
 ![results](img/MG-SCR-results.png)
 
+## Model Size & Computational Complexity
+| Methods  | # Params | GFLOPs |
+|----------|----------|--------|
+| PoseGait |   26.80M |  364.8 |
+| [AGE](https://github.com/Kali-Hac/SGE-LA)      |    7.15M |   37.4 |
+| [CAGE](https://github.com/Kali-Hac/Locality-Awareness-SGE)     |    8.47M |    7.5 |
+| [SM-SGE](https://github.com/Kali-Hac/SM-SGE)   |    5.58M |   22.6 |
+| [MG-SCR (Ours)](https://github.com/Kali-Hac/MG-SCR)   |    1.04M |   19.8 |
+
 ## Citation
 If you find this code useful for your research, please cite our paper
 ```bash
