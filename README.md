@@ -143,3 +143,7 @@ If you find this code useful for your research, please cite our paper
 # Acknowledgements
 
 Thanks to Veličković *et al.* for opening source of their excellent works [GAT](https://github.com/PetarV-/GAT). 
+
+## License
+
+MG-SCR is released under the MIT License.
