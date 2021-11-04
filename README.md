@@ -93,7 +93,6 @@ Please see ```train-CASIA.py``` for more details. <br/>
 | 3D CNN + Average Pooling     | 27.8   | 33.4  | 39.1  |  —   |  —   | 84.0 | 81.4  | 82.8  |  —   |  —   |
 | Gait Energy Volume           | 25.7   | 20.4  | 13.7  |  —   |  —   | 83.2 | 66.2  | 64.8  |  —   |  —   |
 | 3D LSTM                      | 27.0   | 31.0  | 33.8  |  —   |  —   | 83.3 | 77.6  | 78.0  |  —   |  —   |
-| PCM + Skeleton               | 42.9   | 27.3  | 81.8  |  —   |  —   |  —   |  —    |  —    |  —   |  —   |
 | Size-Shape Descriptors + SVM | 20.5   |  —    |  —    |  —   |  —   | 87.2 |  —    |  —    |  —   |  —   |
 | Size-Shape Descriptors + LDA | 22.1   |  —    |  —    |  —   |  —   | 88.5 |  —    |  —    |  —   |  —   |
 | DVCov + SKL                  | 21.4   | 46.6  | 45.9  |  —   |  —   |  —   |  —    |  —    |  —   |  —   |
