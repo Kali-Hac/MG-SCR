@@ -139,6 +139,8 @@ If you find this code useful for your research, please cite our paper
   url       = {https://doi.org/10.24963/ijcai.2021/135},
 }
 ```
+More awesome skeleton-based models are collected in our [Awesome-Skeleton-Based-Models](https://github.com/Kali-Hac/Awesome-Skeleton-Based-Models).
+
 
 # Acknowledgements
 
